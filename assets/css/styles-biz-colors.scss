@@ -1,0 +1,140 @@
+/////////////////////////////////////////////////////////////////////////
+/* DanceBiz Colors */
+$db-primary: #eb66bd;
+$db-primary: #bd1a8d;
+$db-primary: #eb66bd;
+$db-light:#ffa8e4;
+$db-dark:  rgba(67, 3, 48);   // #a31572; // previously #810f57
+
+
+// // $db-dark:  #0d1666;   // #a31572; // previously #810f57
+
+// // $gradient-step-1: #bd1a8d;
+// // $gradient-step-2: #a31779;
+// // $gradient-step-3: #790B59;
+// $db-nav-color-bg-opaque: rgba(67, 3, 48, .9); // with opacity
+// $nav-color-bg-opaque: rgba(67, 3, 48, .9); // with opacity
+
+// // DanceBiz Retheming
+$primary: $db-primary;
+$secondary: $db-light;
+$dark: $db-dark;
+
+/* ClassBiz Colors */
+// $cb-primary: #773079;
+// $cb-light:#c78ec7;
+// $cb-dark:  rgb(66, 26, 66);   // #a31572; // previously #810f57
+// $gradient-step-1: #522153;
+// $gradient-step-2: #6c2c6d; 
+// $gradient-step-3: #522153;
+// $cb-nav-color-bg-opaque: rgba(80, 32, 81, .9); // with opacity
+// $nav-color-bg-opaque: rgba(80, 31, 81, .9); // with opacity
+
+// ClassBiz Retheming
+// $primary: $cb-primary;
+// $secondary: $cb-light;
+// $dark: $cb-dark;
+
+
+/* GymnasticsBiz Colors */
+// $gb-primary: rgb(233, 131, 15);
+// $gb-light:rgb(248, 194, 132);
+// $gb-dark:  rgb(207, 101, 2); 
+// $secondary: $gb-light;
+// $dark: $gb-dark;
+
+
+/* MusicBiz */
+// $mb-primary: rgb(178, 125, 43);
+// $mb-light:rgba(243, 203, 142, 0.911);
+// $mb-dark:  rgb(179, 121, 35); 
+// $secondary: $mb-light;
+// $dark: $mb-dark;
+
+/* SportsBiz */
+// $sb-primary: rgb(228,36,43);
+// $sb-light: rgb(250, 133, 133);
+// $sb-dark:  rgb(173, 25, 30);
+// $primary: $sb-primary;
+// $secondary: $sb-light;
+// $dark: $sb-dark;
+
+/* SwimBiz */
+// $swb-primary: rgb(3, 112, 201);
+// $swb-light:rgb(142, 201, 250);
+// $swb-dark:  rgb(10, 85, 170);
+// $primary: $swb-primary; 
+// $secondary: $swb-light;
+// $dark: $swb-dark;
+
+
+/* TennisBiz */
+// $tb-primary: rgb(1, 128, 69);
+// $tb-light:rgb(131, 204, 147);
+// $tb-dark:  rgb(1, 105, 57); 
+// $primary: $tb-primary;
+// $secondary: $tb-light;
+// $dark: $tb-dark;
+
+// ThinkSmart General Colors 
+$thinksmart-body-text: darken(#686868, 10%);
+
+// Body text for all
+$grey: $thinksmart-body-text;
+
+// Bootstrap's default body text color
+$body-color: $grey;
+
+h1, h2, h3, h4, h5, h6 {
+    color: $primary;
+}
+
+/* opaque background for nav background lg and up */
+// .nav-top-bg-dark {
+//     background-color: $dark;
+//     @media (min-width: 992px) {
+//         background-color: rgba($dark, .95);
+//     }
+// }
+
+
+// Original Values of Colors 
+/* DanceBiz Color Variables */
+// $db-primary: #eb66bd;
+// $db-light:#ffa8e4;
+// $db-dark:  rgba(67, 3, 48);   // #a31572; // previously #810f57
+// $gradient-step-1: #bd1a8d;
+// $gradient-step-2: #a31779;
+// $gradient-step-3: #790B59;
+// $db-nav-color-bg-opaque: rgba(67, 3, 48, .9); // with opacity
+// $nav-color-bg-opaque: rgba(67, 3, 48, .9); // with opacity
+
+// // DanceBiz Retheming
+// $primary: $db-primary;
+// $secondary: $db-light;
+// $dark: $db-dark;
+
+/* ClassBiz Color Variables Original */
+
+// $cb-primary: #773079;
+// $cb-light:#c78ec7;
+// $cb-dark:  rgb(50, 20, 51);   // #a31572; // previously #810f57
+// $gradient-step-1: #522153;
+// $gradient-step-2: #6c2c6d; 
+// $gradient-step-3: #522153;
+// $cb-nav-color-bg-opaque: rgba(80, 32, 81, .9); // with opacity
+// $nav-color-bg-opaque: rgba(80, 31, 81, .9); // with opacity
+
+// // ClassBiz Retheming
+// $primary: $cb-primary;
+// $secondary: $cb-light;
+// $dark: $cb-dark;
+
+// using just a solid color instead
+// background-color: #6c2c6d; // class
+// background-color: #a31779; // dance
+// background-color: #f6921e; // gymnastics
+// background-color: #b27d2b; // music
+// background-color: #b31e24; // sports
+// background-color: #2c3cc7; // swim
+// background-color: #018045; // tennis

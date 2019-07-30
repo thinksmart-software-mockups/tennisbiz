@@ -1,10 +1,10 @@
 /////////////////////////////////////////////////////////////////////////
 /* DanceBiz Colors */
-$db-primary: #eb66bd;
-$db-primary: #bd1a8d;
-$db-primary: #eb66bd;
-$db-light:#ffa8e4;
-$db-dark:  rgba(67, 3, 48);   // #a31572; // previously #810f57
+// $db-primary: #eb66bd;
+// $db-primary: #bd1a8d;
+// // $db-primary: #b94591;
+// $db-light:#ffa8e4;
+// $db-dark:  rgba(67, 3, 48);   // #a31572; // previously #810f57
 
 
 // // $db-dark:  #0d1666;   // #a31572; // previously #810f57
@@ -16,14 +16,14 @@ $db-dark:  rgba(67, 3, 48);   // #a31572; // previously #810f57
 // $nav-color-bg-opaque: rgba(67, 3, 48, .9); // with opacity
 
 // // DanceBiz Retheming
-$primary: $db-primary;
-$secondary: $db-light;
-$dark: $db-dark;
+// $primary: $db-primary;
+// $secondary: $db-light;
+// $dark: $db-dark;
 
 /* ClassBiz Colors */
 // $cb-primary: #773079;
 // $cb-light:#c78ec7;
-// $cb-dark:  rgb(66, 26, 66);   // #a31572; // previously #810f57
+// $cb-dark:  rgb(82, 33, 82);   // #a31572; // previously #810f57
 // $gradient-step-1: #522153;
 // $gradient-step-2: #6c2c6d; 
 // $gradient-step-3: #522153;
@@ -35,7 +35,6 @@ $dark: $db-dark;
 // $secondary: $cb-light;
 // $dark: $cb-dark;
 
-
 /* GymnasticsBiz Colors */
 // $gb-primary: rgb(233, 131, 15);
 // $gb-light:rgb(248, 194, 132);
@@ -43,6 +42,9 @@ $dark: $db-dark;
 // $secondary: $gb-light;
 // $dark: $gb-dark;
 
+// $primary: $gb-primary;
+// $secondary: $gb-light;
+// $dark: darken($gb-dark, 10%);
 
 /* MusicBiz */
 // $mb-primary: rgb(178, 125, 43);
@@ -50,6 +52,10 @@ $dark: $db-dark;
 // $mb-dark:  rgb(179, 121, 35); 
 // $secondary: $mb-light;
 // $dark: $mb-dark;
+
+// $primary: $mb-primary;
+// $secondary: $mb-light;
+// $dark: darken($mb-dark, 10%);
 
 /* SportsBiz */
 // $sb-primary: rgb(228,36,43);
@@ -59,6 +65,11 @@ $dark: $db-dark;
 // $secondary: $sb-light;
 // $dark: $sb-dark;
 
+// $primary: $sb-primary;
+// $secondary: $sb-light;
+// $dark: darken($sb-dark, 5%);
+
+
 /* SwimBiz */
 // $swb-primary: rgb(3, 112, 201);
 // $swb-light:rgb(142, 201, 250);
@@ -67,14 +78,23 @@ $dark: $db-dark;
 // $secondary: $swb-light;
 // $dark: $swb-dark;
 
+// $primary: $swb-primary;
+// $secondary: $swb-light;
+// $dark: darken($swb-dark, 5%);
 
 /* TennisBiz */
-// $tb-primary: rgb(1, 128, 69);
+$tb-primary: rgb(1, 128, 69);
 // $tb-light:rgb(131, 204, 147);
-// $tb-dark:  rgb(1, 105, 57); 
-// $primary: $tb-primary;
-// $secondary: $tb-light;
-// $dark: $tb-dark;
+$tb-light:rgb(138, 236, 168);
+$tb-dark:  rgb(1, 105, 57); 
+$primary: $tb-primary;
+$secondary: $tb-light;
+$dark: $tb-dark;
+
+$primary: $tb-primary;
+$secondary: $tb-light;
+$dark: darken($tb-dark, 5%);
+
 
 // ThinkSmart General Colors 
 $thinksmart-body-text: darken(#686868, 10%);

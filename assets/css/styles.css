@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* DanceBiz Colors */
 /* ClassBiz Colors */
+/* ClassBiz Retheming */
 /* GymnasticsBiz Colors */
 /* MusicBiz */
 /* SportsBiz */
@@ -107,10 +108,6 @@ input::placeholder {
   background-color: #018045;
 }
 
-.overflow-show {
-  overflow: visible !important;
-}
-
 /* DanceBiz text utilities */
 /* All gradients readjusted */
 .hero-gradient-background {
@@ -121,44 +118,20 @@ input::placeholder {
   background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.3) 100%);
 }
 
-.hero-gradient-background-footer:after {
-  height: 100%;
-  width: 100%;
-}
-
-.small-gradient-background-detailed:after {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  box-shadow: inset 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+.gradient-main-1 {
   background: radial-gradient(circle, #16a864 40%, #089252 75%, #037c44 100%);
+  box-shadow: inset 0px -43px 75px -50px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
 }
 
 .gradient-small {
   background: radial-gradient(circle, #16a864 40%, #089252 75%, #037c44 100%);
-  box-shadow: inset 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -43px 75px -50px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
-.gradient-main-1 {
-  background: radial-gradient(circle, #139659 40%, #078d4f 67%, #036b3a 100%);
-  box-shadow: inset 0px -43px 75px -100px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.gradient-inset-shadow {
-  box-shadow: inset 0px -43px 75px -50px rgba(0, 0, 0, 0.4);
-}
-
-.gradient-main-1 {
-  background: radial-gradient(circle, #139659 40%, #078d4f 67%, #036b3a 100%);
-  box-shadow: inset 0px -43px 75px -100px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-}
-
-.overflow-visible {
+.overflow-visible, .overflow-show {
   overflow: visible;
 }
 
@@ -9887,6 +9860,7 @@ h3 {
 
 .card-profile-picture-bg {
   background: radial-gradient(circle, #16a864 40%, #089252 75%, #037c44 100%);
+  box-shadow: inset 0px -43px 75px -50px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   border-radius: 5px 0 0 5px;
@@ -9938,22 +9912,6 @@ h3 {
 
 .btn-dark {
   box-shadow: 0 3px 0 black;
-}
-
-/* light grey background for blog and free trial page */
-.light-grey-bg:before {
-  display: none;
-}
-@media (min-width: 768px) {
-  .light-grey-bg:before {
-    content: " ";
-    background-color: #f5f6f8;
-    width: 100%;
-    height: 15%;
-    position: absolute;
-    z-index: -1;
-    display: block;
-  }
 }
 
 /* blog styles only */
@@ -10792,20 +10750,6 @@ h3 {
   }
 }
 
-.gradient-inset-shadow-deep {
-  box-shadow: inset 0px 0px 200px 25px rgba(0, 0, 0, 0.2);
-}
-@media (min-width: 768px) {
-  .gradient-inset-shadow-deep {
-    box-shadow: inset 0px 0px 150px 45px rgba(0, 0, 0, 0.3);
-  }
-}
-@media (min-width: 992px) {
-  .gradient-inset-shadow-deep {
-    box-shadow: inset 0px 0px 150px 45px rgba(0, 0, 0, 0.3);
-  }
-}
-
 /* customer portal - product slider styles 5 */
 .product-slider-section-5 {
   padding: 0;
@@ -10875,6 +10819,20 @@ h3 {
 .generic-svg-shadow {
   -webkit-filter: drop-shadow(0 0 9px rgba(0, 0, 0, 0.5));
   filter: drop-shadow(0 0 9px rgba(0, 0, 0, 0.5));
+}
+
+.gradient-inset-shadow-deep {
+  box-shadow: inset 0px 0px 200px 25px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 768px) {
+  .gradient-inset-shadow-deep {
+    box-shadow: inset 0px 0px 150px 45px rgba(0, 0, 0, 0.3);
+  }
+}
+@media (min-width: 992px) {
+  .gradient-inset-shadow-deep {
+    box-shadow: inset 0px 0px 150px 45px rgba(0, 0, 0, 0.3);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
